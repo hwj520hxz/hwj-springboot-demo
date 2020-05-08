@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-component" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-component/demo-component-audit-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-component/demo-component-mybatis-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-component/demo-component-server-runtime" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-user/demo-user-base-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-user/demo-user-server" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+com\hwj\demo\component\mybatis\generator\plugin\IgnoreAuditFiledInEntityPlugin.class
+com\hwj\demo\component\mybatis\generator\plugin\LessCommentGenerator.class
+com\hwj\demo\component\mybatis\generator\plugin\AuditEntityPlugin.class
+com\hwj\demo\component\mybatis\generator\plugin\JSR303Plugin.class
