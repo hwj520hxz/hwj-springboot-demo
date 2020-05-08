@@ -9,6 +9,7 @@
         <module name="demo-component-audit-support" />
         <module name="demo-component-mybatis-generator" />
         <module name="demo-component-mybatis-generator-plugin" />
+        <module name="demo-component-pageHelper" />
         <module name="demo-component-server-runtime" />
         <module name="demo-user-base-dao" />
         <module name="demo-user-server" />
@@ -20,6 +21,7 @@
       <module name="demo-component-audit-support" options="-parameters" />
       <module name="demo-component-mybatis-generator" options="-parameters" />
       <module name="demo-component-mybatis-generator-plugin" options="-parameters" />
+      <module name="demo-component-pageHelper" options="-parameters" />
       <module name="demo-component-server-runtime" options="-parameters" />
       <module name="demo-dependencies" options="-parameters" />
       <module name="demo-user-base-dao" options="-parameters" />

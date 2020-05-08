@@ -18,6 +18,13 @@
             <artifactId>demo-component-server-runtime</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+        <!--依赖基础dao-->
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-user-base-dao</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

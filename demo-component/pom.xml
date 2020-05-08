@@ -16,6 +16,7 @@
         <module>demo-component-mybatis-generator-plugin</module>
         <module>demo-component-audit-support</module>
         <module>demo-component-mybatis-generator</module>
+        <module>demo-component-pageHelper</module>
     </modules>
 
 

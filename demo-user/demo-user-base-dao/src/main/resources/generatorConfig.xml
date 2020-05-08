@@ -30,8 +30,9 @@
 
         <javaClientGenerator targetPackage="com.hwj.demo.user.base.dao" targetProject="src/main/java"/>
 
-        <table tableName="auth_user" mapperName="UserBaseMapper">
-            <domainObjectRenamingRule searchString="^Auth" replaceString="" />
+        <!-- 应用管理 -->
+        <table tableName="auth_application" mapperName="ApplicationBaseMapper">
+            <domainObjectRenamingRule searchString="^Auth" replaceString=""/>
         </table>
     </context>
 </generatorConfiguration>
