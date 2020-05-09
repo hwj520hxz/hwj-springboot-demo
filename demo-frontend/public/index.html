@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="Bookmark" href="favorite.ico" />
+  <link rel="shortcut icon" type="image/x-icon" media="screen" href="favorite.ico" />
+  <link rel="stylesheet" href="external/element-ui/index.css" />
+  <link rel="stylesheet" href="external/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="external/animate.css/3.7.0/animate.min.css" />
+  <link rel="stylesheet" href="external/hover.css/2.3.2/hover-min.css" />
+  <link rel="stylesheet" href="external/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>PC端通用项目框架模板</title>
+  <style>
+    /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    /*正常情况下滑块的样式*/
+    ::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+      background-color: transparent;
+    }
+
+    /*鼠标悬浮在该类指向的控件上时滑块的样式*/
+    :hover::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-thumb:hover {
+      border-radius: 4px;
+      background-color: rgba(144,147,153,0.3);
+    }
+
+    * {
+      font-family: "Microsoft YaHei";
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="external/babel-polyfill/polyfill.min.js"></script>
+  <script src="external/vue/2.6.10/vue.js"></script>
+  <script src="external/vuex/3.1.0/vuex.min.js"></script>
+  <script src="external/vue-router/3.0.5/vue-router.min.js"></script>
+  <script src="external/axios/0.18.0/axios.min.js"></script>
+  <script src="external/element-ui/index.js"></script>
+  <script src="external/moment.js/2.24.0/moment.min.js"></script>
+  <script src="external/moment.js/2.24.0/zh-cn.js"></script>
+</body>
+
+</html>

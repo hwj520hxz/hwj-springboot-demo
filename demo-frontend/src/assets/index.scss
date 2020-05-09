@@ -1,0 +1,143 @@
+// 变量
+$border-color: #d7d7d7;
+$background-color: #EBEEF5;
+
+// 搜索栏
+.search-bar {
+  height: 42px;
+  overflow: auto;
+  white-space: nowrap;
+
+  .el-form-item--small.el-form-item {
+    margin-bottom: 0;
+
+    .el-button {
+      padding: 8px 15px;
+    }
+  }
+}
+
+// 工具栏
+.tool-bar {
+  height: 30px;
+  display: flex;
+  padding: 0 15px;
+  line-height: 30px;
+  border: 1px solid $border-color;
+  border-bottom: none;
+  background: linear-gradient($background-color, $background-color);
+
+  // 分割线
+  .split-line {
+    height: 12px;
+    margin: 10px 8px;
+    border-right: 1px solid $border-color;
+  }
+}
+
+// 表格
+.el-table {
+  th.is-leaf {
+    border-color: $border-color;
+  }
+
+  .el-loading-mask {
+    right: 1px;
+    bottom: 1px;
+  }
+  td {
+    padding: 4px 0;
+  }
+}
+
+.el-table__header {
+  thead {
+    th {
+      padding: 4px 0;
+      background-color: $background-color;
+    }
+  }
+}
+
+.el-table--border {
+  border-color: $border-color;
+
+  &.el-loading-parent--relative {
+    border-color: $border-color;
+  }
+
+  th,
+  td {
+    border-color: $border-color;
+  }
+}
+
+.el-table::before,
+.el-table--border::after {
+  background-color: $border-color;
+}
+
+.el-table__fixed-right::before, .el-table__fixed::before {
+  background-color: $border-color;
+}
+
+// 分页
+.el-pagination {
+  text-align: right;
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  border-top: none;
+}
+
+// 弹窗
+.el-dialog {
+  margin: 0 auto 0;
+}
+
+.el-dialog__header {
+  padding: 10px 0 0 0;
+  // background-color: $background-color;
+
+  .title {
+    display: flex;
+    color: #555;
+    font-size: 17px;
+    align-items: center;
+    padding: 0 0 10px 10px;
+    border-bottom: 1px solid #eee;
+
+    i {
+      font-size: 30px;
+      color: #737373;
+    }
+  }
+}
+
+.el-dialog__body {
+  padding: 10px;
+}
+
+.el-dialog__footer {
+  height: 50px;
+  padding: 0 10px;
+  line-height: 47px;
+  border-top: 1px solid #eee;
+  // background-color: $background-color;
+}
+
+// 文字溢出
+.text-over {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// 暂无数据
+.no-data {
+  height: 100%;
+  display: flex;
+  font-size: 14px;
+  color: #909399;
+  align-items: center;
+  justify-content: center;
+}

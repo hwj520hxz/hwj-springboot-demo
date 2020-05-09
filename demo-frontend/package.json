@@ -1,0 +1,43 @@
+{
+  "name": "boss-admin-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "postbuild": "node resourceasync.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "cronstrue": "^1.91.0",
+    "epic-spinners": "^1.1.0",
+    "extend": "^3.0.2",
+    "file-saver": "^2.0.2",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.0",
+    "md5": "^2.2.1",
+    "mockjs": "^1.0.1-beta3",
+    "vue-touch-ripple": "^2.4.0",
+    "vue-typer": "^1.2.0",
+    "vue-x-axios": "^2.0.2",
+    "vuedraggable": "^2.23.2",
+    "xlsx": "^0.15.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
