@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author ：hwj
  * @version 版本号：V1.0
- * @Description ：
+ * @Description ：应用管理
  */
 
 @RestController
