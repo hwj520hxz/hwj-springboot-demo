@@ -4,8 +4,6 @@ import com.hwj.demo.user.base.entity.Application;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import java.util.List;
-
 /**
  * @author ：hwj
  * @version 版本号：V1.0

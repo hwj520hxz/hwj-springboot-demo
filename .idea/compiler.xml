@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-component-audit-support" />
+        <module name="demo-component-exception" />
         <module name="demo-component-mybatis-generator" />
         <module name="demo-component-mybatis-generator-plugin" />
         <module name="demo-component-pageHelper" />
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-component-audit-support" options="-parameters" />
+      <module name="demo-component-exception" options="-parameters" />
       <module name="demo-component-mybatis-generator" options="-parameters" />
       <module name="demo-component-mybatis-generator-plugin" options="-parameters" />
       <module name="demo-component-pageHelper" options="-parameters" />

@@ -1,0 +1,4 @@
+com\hwj\demo\user\base\dao\ApplicationBaseMapper.class
+com\hwj\demo\user\base\entity\Application.class
+com\hwj\demo\user\base\dao\ApplicationDynamicSqlSupport$Application.class
+com\hwj\demo\user\base\dao\ApplicationDynamicSqlSupport.class

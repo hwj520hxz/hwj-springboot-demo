@@ -1,5 +1,5 @@
 <template>
-  <div href="#" class="text">伟杰牛逼</div>
+  <div href="#" class="text">欧阳牛逼</div>
 </template>
 
 <script>

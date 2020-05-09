@@ -17,6 +17,7 @@
         <module>demo-component-audit-support</module>
         <module>demo-component-mybatis-generator</module>
         <module>demo-component-pageHelper</module>
+        <module>demo-component-exception</module>
     </modules>
 
 
