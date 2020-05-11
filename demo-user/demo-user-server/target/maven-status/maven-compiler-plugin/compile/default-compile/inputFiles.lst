@@ -3,3 +3,4 @@ G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\j
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\UserServerStart.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\IApplicationService.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\impl\ApplicationService.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\web\dto\ApplicationDTO.java

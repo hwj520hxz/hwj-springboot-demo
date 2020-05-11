@@ -1,14 +1,13 @@
 package com.hwj.demo.user.server.web;
 
+import com.bosssoft.nontax.commons.groovy.mapper.Mapper;
 import com.hwj.demo.user.base.entity.Application;
 import com.hwj.demo.user.server.service.IApplicationService;
+import com.hwj.demo.user.server.web.dto.ApplicationDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author ：hwj
@@ -22,6 +21,20 @@ public class ApplicationController {
 
     @Autowired
     private IApplicationService applicationService;
+
+    @Autowired
+    private Mapper mapper;
+
+
+    /**
+     * 新增应用
+     * @param applicationDTO 应用实例
+     */
+    @PostMapping()
+    public void saveApplication(@RequestBody ApplicationDTO applicationDTO){
+        Application application = mapper.map(applicationDTO,Application.class);
+        applicationService.save(application);
+    }
 
     /**
      * 查询应用

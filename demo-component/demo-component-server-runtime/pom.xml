@@ -66,6 +66,24 @@
             <artifactId>demo-component-audit-support</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+        <!--主键生成-->
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-component-id-generator</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <!--异常-->
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-component-exception</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <!--groovy-->
+        <dependency>
+            <groupId>com.bosssoft.nontax</groupId>
+            <artifactId>commons-groovy-mapper</artifactId>
+        </dependency>
+
 
 
     </dependencies>

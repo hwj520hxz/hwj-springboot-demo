@@ -18,6 +18,7 @@
         <module>demo-component-mybatis-generator</module>
         <module>demo-component-pageHelper</module>
         <module>demo-component-exception</module>
+        <module>demo-component-id-generator</module>
     </modules>
 
 

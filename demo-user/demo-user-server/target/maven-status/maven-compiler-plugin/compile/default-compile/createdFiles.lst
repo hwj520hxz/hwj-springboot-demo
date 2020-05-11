@@ -3,3 +3,4 @@ com\hwj\demo\user\server\dao\ApplicationMapper.class
 com\hwj\demo\user\server\web\ApplicationController.class
 com\hwj\demo\user\server\service\IApplicationService.class
 com\hwj\demo\user\server\service\impl\ApplicationService.class
+com\hwj\demo\user\server\web\dto\ApplicationDTO.class

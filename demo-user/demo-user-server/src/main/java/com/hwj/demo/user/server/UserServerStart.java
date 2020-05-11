@@ -1,8 +1,9 @@
 package com.hwj.demo.user.server;
 
-import org.mybatis.spring.annotation.MapperScan;
+import com.hwj.demo.component.server.runtime.ServerRuntimeStart;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 
 /**
  * @author ：hwj
@@ -11,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-@MapperScan("com.hwj.demo.user.server.dao")
+@Import(ServerRuntimeStart.class)
 public class UserServerStart {
     public static void main(String[] args) {
         SpringApplication.run(UserServerStart.class, args);
