@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["simple-grid"],{2758:function(t,e,n){"use strict";n.r(e);var c=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"text",attrs:{href:"#"}},[t._v("弟弟牛逼")])},s=[],a={name:"demo"},i=a,r=(n("8cd3"),n("2877")),u=Object(r["a"])(i,c,s,!1,null,"07863a8c",null);e["default"]=u.exports},"8cd3":function(t,e,n){"use strict";var c=n("b833"),s=n.n(c);s.a},b833:function(t,e,n){}}]);
+//# sourceMappingURL=simple-grid.00cc816b.js.map
