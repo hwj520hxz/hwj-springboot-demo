@@ -16,10 +16,8 @@
 package com.hwj.demo.component.id.generator.buffer;
 
 /**
- * If cursor catches the tail it means that the ring buffer is empty, any more buffer take request will be rejected.
- * Specify the policy to handle the reject. This is a Lambda supported interface
- *
- * @author yutianbao
+ * 如果光标捕捉到尾部，这意味着环形缓冲区是空的，任何更多的缓冲区接受请求将被拒绝
+ * 处理拒绝的策略
  */
 @FunctionalInterface
 public interface RejectedTakeBufferHandler {

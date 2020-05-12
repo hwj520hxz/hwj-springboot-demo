@@ -41,30 +41,33 @@ public class RingBuffer {
 
     /** Constants */
     private static final int START_POINT = -1;
+    // 是否可以进行填充uid操作的标志
     private static final long CAN_PUT_FLAG = 0L;
+    // 是否可以进行获取uid操作的标志
     private static final long CAN_TAKE_FLAG = 1L;
+    // 环形数组上的uid已经被使用的个数超过50则对RingBuffer进行填充补全
     public static final int DEFAULT_PADDING_PERCENT = 50;
 
-    /** The size of RingBuffer's slots, each slot hold a UID */
+    /** RingBuffer插槽大小，每一个插槽都有一个uid */
     private final int bufferSize;
     private final long indexMask;
     private final long[] slots;
     private final PaddedAtomicLong[] flags;
 
-    /** Tail: last position sequence to produce */
+    /** 尾：最后一个要生产的位置序列 */
     private final AtomicLong tail = new PaddedAtomicLong(START_POINT);
 
-    /** Cursor: current position sequence to consume */
+    /** 游标:要使用的当前位置序列 */
     private final AtomicLong cursor = new PaddedAtomicLong(START_POINT);
 
-    /** Threshold for trigger padding buffer*/
+    /** 触发器填充缓冲区的阈值 */
     private final int paddingThreshold;
 
-    /** Reject put/take buffer handle policy */
+    /** 拒绝put/take缓冲区策略 */
     private RejectedPutBufferHandler rejectedPutHandler = this::discardPutBuffer;
     private RejectedTakeBufferHandler rejectedTakeHandler = this::exceptionRejectedTakeBuffer;
 
-    /** Executor of padding buffer */
+    /** 线程池 */
     private BufferPaddingExecutor bufferPaddingExecutor;
 
     /**
@@ -79,10 +82,9 @@ public class RingBuffer {
     /**
      * Constructor with buffer size & padding factor
      *
-     * @param bufferSize must be positive & a power of 2
-     * @param paddingFactor percent in (0 - 100). When the count of rest available UIDs reach the threshold, it will trigger padding buffer<br>
-     *        Sample: paddingFactor=20, bufferSize=1000 -> threshold=1000 * 20 /100,
-     *        padding buffer will be triggered when tail-cursor<threshold
+     * @param bufferSize 数组大小必须是2的幂次方
+     * @param paddingFactor 当rest可用uid的数量达到阈值时，将触发padding buffer
+     *                      例子：paddingFactor=20, bufferSize=1000 -> threshold=1000 * 20 /100，当尾光标<阈值时将触发填充缓冲区
      */
     public RingBuffer(int bufferSize, int paddingFactor) {
         // check buffer size is positive & a power of 2; padding factor in (0, 100)

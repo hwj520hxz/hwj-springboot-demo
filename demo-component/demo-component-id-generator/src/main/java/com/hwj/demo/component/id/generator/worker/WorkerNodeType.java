@@ -19,23 +19,23 @@ package com.hwj.demo.component.id.generator.worker;
 import com.hwj.demo.component.id.generator.utils.ValuedEnum;
 
 /**
- * WorkerNodeType
- * <li>CONTAINER: Such as Docker
- * <li>ACTUAL: Actual machine
+ * 节点类型
+ * CONTAINER: Docker
+ * ACTUAL: machine
  *
- * @author yutianbao
+ * @author hwj
  */
 public enum WorkerNodeType implements ValuedEnum<Integer> {
 
     CONTAINER(1), ACTUAL(2);
 
     /**
-     * Lock type
+     * 节点类型
      */
     private final Integer type;
 
     /**
-     * Constructor with field of type
+     * 构造函数
      */
     private WorkerNodeType(Integer type) {
         this.type = type;

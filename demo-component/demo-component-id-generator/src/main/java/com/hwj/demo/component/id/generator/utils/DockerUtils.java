@@ -22,21 +22,21 @@ import org.slf4j.LoggerFactory;
 /**
  * DockerUtils
  *
- * @author yutianbao
+ * @author hwj
  */
 public abstract class DockerUtils {
     private static final Logger LOGGER = LoggerFactory.getLogger(DockerUtils.class);
 
-    /** Environment param keys */
-    private static final String ENV_KEY_HOST = "JPAAS_HOST";
-    private static final String ENV_KEY_PORT = "JPAAS_HTTP_PORT";
-    private static final String ENV_KEY_PORT_ORIGINAL = "JPAAS_HOST_PORT_8080";
+    /** 环境参数 */
+    private static final String ENV_KEY_HOST = "JPAAS_HOST";  //主机
+    private static final String ENV_KEY_PORT = "JPAAS_HTTP_PORT";  //端口
+    private static final String ENV_KEY_PORT_ORIGINAL = "JPAAS_HOST_PORT_8080"; //主机默认端口
 
-    /** Docker host & port */
+    /** Docker 主机和端口 */
     private static String DOCKER_HOST = "";
     private static String DOCKER_PORT = "";
 
-    /** Whether is docker */
+    /** 是否 docker */
     private static boolean IS_DOCKER;
 
     static {
@@ -71,10 +71,13 @@ public abstract class DockerUtils {
     }
 
     /**
-     * Retrieve host & port from environment
+     * 从环境中检索主机和端口
      */
     private static void retrieveFromEnv() {
-        // retrieve host & port from environment
+        /**
+         * getenv：返回的变量大多与系统相关
+         * getProperty：返回的变量大多与java程序有关
+         **/
         DOCKER_HOST = System.getenv(ENV_KEY_HOST);
         DOCKER_PORT = System.getenv(ENV_KEY_PORT);
 

@@ -20,25 +20,21 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * DAO for M_WORKER_NODE
- *
- * @author yutianbao
+ * 工作节点DAO
+ * @author hwj
  */
 @Mapper
 public interface WorkerNodeDAO {
 
     /**
-     * Get {@link WorkerNodeEntity} by node host
-     *
-     * @param host
-     * @param port
-     * @return
+     * 根据工作主机名和端口获取工作节点
+     * @param host 主机名
+     * @param port 端口
      */
     WorkerNodeEntity getWorkerNodeByHostPort(@Param("host") String host, @Param("port") String port);
 
     /**
-     * Add {@link WorkerNodeEntity}
-     *
+     * 新增工作节点
      * @param workerNodeEntity
      */
     void addWorkerNode(WorkerNodeEntity workerNodeEntity);

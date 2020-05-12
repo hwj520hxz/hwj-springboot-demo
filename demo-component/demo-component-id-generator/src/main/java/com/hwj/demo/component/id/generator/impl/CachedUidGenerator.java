@@ -16,7 +16,23 @@ import java.util.List;
 /**
  * @author ：hwj
  * @version 版本号：V1.0
- * @Description ：生成uid时性能比default要高
+ * 这是一种缓存型的ID生成方式，当剩余ID不足的时候，会异步的方式重新生成一批ID缓存起来，后续请求的时候直接返回现成的ID即可
+ * 生成uid时性能比default要高
+ * CachedUidGenerator启动过程：
+ * 1.初始化Bean，实现InitializingBean的afterPropertiesSet
+ * 2.读取spring配置的占位分配数据，包括timeBits、workerBits、seqBits等
+ * 3.再数据库插入一条worknode数据并获取该数据ID作为workId
+ * 4.开始填充RingBuffer 数组大小默认扩容至序列号部分的3倍，长度为65536
+ * 5.设置paddingFactor，默认50，决定自动扩容的阈值
+ * 6.设置BufferPaddingExecutor线程池，默认为CPU核数的2倍（主要是完成RingBuffer的初始化工作，包括容量大小、阈值设置、是否周期填充，拒绝策略等）
+ * 7.根据spring配置加载Schedule周期填充，拒绝策略，默认不加载
+ * 8.获取同一机器ID下，同一毫秒内的所有序列，放在List里
+ * 9.循环读取List，执行RingBuffer的put方法
+ * 10.获取tail，当前cursor位置
+ * 11.RingBuffer满了或者flags数组内tail的下一个位置不是CAN_PUT_FLAG标志，是则执行拒绝策略
+ * 12.slots数组增加此uid的值，flags数组相应索引位置设置为CAN_TAKE_FLAG
+ * 13.直至填满66536个
+ * 14.完成填充RingBuffer，初始化完成
  */
 public class CachedUidGenerator extends DefaultUidGenerator implements DisposableBean {
     private static final Logger LOGGER = LoggerFactory.getLogger(CachedUidGenerator.class);
@@ -47,16 +63,22 @@ public class CachedUidGenerator extends DefaultUidGenerator implements Disposabl
     private RingBuffer ringBuffer;
     private BufferPaddingExecutor bufferPaddingExecutor;
 
+    /**
+     * 在初始化bean的时候都会执行该方法
+     **/
     @Override
     public void afterPropertiesSet() throws Exception {
         // initialize workerId & bitsAllocator
         super.afterPropertiesSet();
 
-        // initialize RingBuffer & RingBufferPaddingExecutor
+        // 初始化RingBuffer
         this.initRingBuffer();
         LOGGER.info("Initialized RingBuffer successfully.");
     }
 
+    /**
+     * 获取UID
+     **/
     @Override
     public long getUID() {
         try {
@@ -67,38 +89,46 @@ public class CachedUidGenerator extends DefaultUidGenerator implements Disposabl
         }
     }
 
+    /**
+     * 解析UID
+     **/
     @Override
     public String parseUID(long uid) {
         return super.parseUID(uid);
     }
 
+    /**
+     * 关闭线程池
+     **/
     @Override
     public void destroy() throws Exception {
         bufferPaddingExecutor.shutdown();
     }
 
     /**
-     * Get the UIDs in the same specified second under the max sequence
+     * 在相同的毫秒内获取最大的序列号下的uid
      *
      * @param currentSecond
      * @return UID list, size of {@link BitsAllocator#getMaxSequence()} + 1
      */
     protected List<Long> nextIdsForOneSecond(long currentSecond) {
-        // Initialize result list size of (max sequence + 1)
+        // 初始化序列，长度为MaxSequence+1,MaxSequence是从0开始计算的，所以需要加1，通过以下代码0L可以确定
         int listSize = (int) bitsAllocator.getMaxSequence() + 1;
         List<Long> uidList = new ArrayList<>(listSize);
 
-        // Allocate the first sequence of the second, the others can be calculated with the offset
+        // 第一个序列的时间偏差进行计算，然后获取第一个序列的uid，其余序列的uid利用偏移量进行分配
+        // currentSecond 当前毫秒  epochSeconds 时间基点 因为是第一个序列，所以sequence是0
         long firstSeqUid = bitsAllocator.allocate(currentSecond - epochSeconds, workerId, 0L);
         for (int offset = 0; offset < listSize; offset++) {
             uidList.add(firstSeqUid + offset);
         }
-
         return uidList;
     }
 
     /**
-     * Initialize RingBuffer & RingBufferPaddingExecutor
+     * 初始化RingBuffer数组
+     * RingBuffer是个环形数组，默认大小为8192个，里面缓存着生成的id
+     * 填充机制：程序启动时，将RingBuffer填充满，缓存8192个id，在调用getUID()时，检测RingBuffer中的剩余id个数小于总个数的50%，将RingBuffer填充满，可配置定时填充
      */
     private void initRingBuffer() {
         // initialize RingBuffer

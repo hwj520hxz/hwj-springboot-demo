@@ -23,50 +23,47 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 import java.util.Date;
 
 /**
- * Entity for M_WORKER_NODE
- *
- * @author yutianbao
+ * 工作节点实体
+ * @author hwj
  */
 public class WorkerNodeEntity {
 
     /**
-     * Entity unique id (table unique)
+     * id
      */
     private long id;
 
     /**
-     * Type of CONTAINER: HostName, ACTUAL : IP.
+     * 主机名
      */
     private String hostName;
 
     /**
-     * Type of CONTAINER: Port, ACTUAL : Timestamp + Random(0-10000)
+     * 端口
      */
     private String port;
 
     /**
-     * type of {@link WorkerNodeType}
+     * 工作类型
      */
     private int type;
 
     /**
-     * Worker launch date, default now
+     * 工作时间
      */
     private Date launchDate = new Date();
 
     /**
-     * Created time
+     * 创建时间
      */
     private Date created;
 
     /**
-     * Last modified
+     * 最近一次修改时间
      */
     private Date modified;
 
-    /**
-     * Getters & Setters
-     */
+
     public long getId() {
         return id;
     }

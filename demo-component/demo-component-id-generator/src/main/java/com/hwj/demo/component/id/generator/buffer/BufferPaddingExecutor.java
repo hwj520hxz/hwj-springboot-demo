@@ -43,22 +43,22 @@ public class BufferPaddingExecutor {
     private static final String SCHEDULE_NAME = "RingBuffer-Padding-Schedule";
     private static final long DEFAULT_SCHEDULE_INTERVAL = 5 * 60L; // 5 minutes
 
-    /** Whether buffer padding is running */
+    /** 是否运行缓冲区填充 */
     private final AtomicBoolean running;
 
-    /** We can borrow UIDs from the future, here store the last second we have consumed */
+    /** 最近的毫秒数 */
     private final PaddedAtomicLong lastSecond;
 
     /** RingBuffer & BufferUidProvider */
     private final RingBuffer ringBuffer;
     private final BufferedUidProvider uidProvider;
 
-    /** Padding immediately by the thread pool */
+    /** 线程池 */
     private final ExecutorService bufferPadExecutors;
-    /** Padding schedule thread */
+    /** 填充调度线程 */
     private final ScheduledExecutorService bufferPadSchedule;
 
-    /** Schedule interval Unit as seconds */
+    /** 时间间隔 */
     private long scheduleInterval = DEFAULT_SCHEDULE_INTERVAL;
 
     /**
@@ -145,10 +145,14 @@ public class BufferPaddingExecutor {
             LOGGER.info("Padding buffer is still running. {}", ringBuffer);
             return;
         }
-
+        /**
+         * 时间回拨问题：时间校准，以及其他因素，可能导致服务器时间回退（时间向前快进不会有问题），如果恰巧回退前生成过一些ID，而时间回退后，生成的ID就有可能重复
+         */
         // fill the rest slots until to catch the cursor
         boolean isFullRingBuffer = false;
         while (!isFullRingBuffer) {
+            // 调用nextIdsForOneSecond方法获取UID list，注意此处的时间使用lastSecond.incrementAndGet()方法时间自增的方式获取
+            // 而不是System.currentTimeMillis()获取，解决了运行时时间回拨问题
             List<Long> uidList = uidProvider.provide(lastSecond.incrementAndGet());
             for (Long uid : uidList) {
                 isFullRingBuffer = !ringBuffer.put(uid);

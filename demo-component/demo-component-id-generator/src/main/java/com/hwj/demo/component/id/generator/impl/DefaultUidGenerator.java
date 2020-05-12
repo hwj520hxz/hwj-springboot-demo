@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author ：hwj
  * InitializingBean : 凡是继承该接口的类，在初始化bean的时候都会执行该方法
+ * 和CachedUidGenerator获取的ID不同之处在于，DefaultUidGenerator获取的时间戳部分是当前时间，后者则不是
  */
 public class DefaultUidGenerator implements UidGenerator, InitializingBean {
 
@@ -26,7 +27,7 @@ public class DefaultUidGenerator implements UidGenerator, InitializingBean {
     protected int workerBits = 22;  //机器ID 最多可支持约420w次机器启动。内置实现为在启动时由数据库分配。420w = 2^22
     protected int seqBits = 13;     //每秒下的并发序列 13 bits可支持每秒8192个并发，即2^13个并发
 
-    /** Customer epoch, unit as second. For example 2016-05-20 (ms: 1463673600000)*/
+    /** 起始时间戳 For example 2016-05-20 (ms: 1463673600000)*/
     protected String epochStr = "2016-05-20";  // 时间基点
     protected long epochSeconds = TimeUnit.MILLISECONDS.toSeconds(1463673600000L);
 
@@ -87,41 +88,46 @@ public class DefaultUidGenerator implements UidGenerator, InitializingBean {
     }
 
     /**
-     * Get UID
-     *
-     * @return UID
-     * @throws UidGenerateException in the case: Clock moved backwards; Exceeds the max timestamp
+     * 获取 UID
+     * 1.获取当前时间毫秒数（getCurrentSecond有校验是否超过超过最大支持时间年限，跟分配的bit数相关）
+     * 2.是否有时钟回拨，有的话抛出异常
+     * 3.时间是否在同一毫秒内
+     *    3.1.是的话序列号自增1。自增后的序列号是否超过最大值（和seqBits有关，也就是每秒最大并发数），是的话获取下一个毫秒数
+     *    3.2.否的话序列号重新置为0
+     * 4.保存当前的毫秒数lastSecond（用于下一次获取ID时使用）
+     * 5.各部分移位得到最终的ID（根据相应的数据所占的位数）
      */
     protected synchronized long nextId() {
         long currentSecond = getCurrentSecond();
 
-        // Clock moved backwards, refuse to generate uid
+        // 时间大于当前时间，拒绝生成uid
         if (currentSecond < lastSecond) {
+            // 当前时间减去初始时间的秒数
             long refusedSeconds = lastSecond - currentSecond;
             throw new UidGenerateException("Clock moved backwards. Refusing for %d seconds", refusedSeconds);
         }
 
-        // At the same second, increase sequence
+        // 相同毫秒内，序列号自增
         if (currentSecond == lastSecond) {
             sequence = (sequence + 1) & bitsAllocator.getMaxSequence();
-            // Exceed the max sequence, we wait the next second to generate uid
+            // 同一毫秒的序列数已经达到最大，我们等待下一秒生成uid
             if (sequence == 0) {
                 currentSecond = getNextSecond(lastSecond);
             }
 
-            // At the different second, sequence restart from zero
+            // 不同毫秒内，序列从零开始
         } else {
             sequence = 0L;
         }
 
         lastSecond = currentSecond;
 
-        // Allocate bits for UID
+        // 为UID分配位
         return bitsAllocator.allocate(currentSecond - epochSeconds, workerId, sequence);
     }
 
     /**
-     * Get next millisecond
+     * 得到下一个毫秒
      */
     private long getNextSecond(long lastTimestamp) {
         long timestamp = getCurrentSecond();
@@ -133,10 +139,11 @@ public class DefaultUidGenerator implements UidGenerator, InitializingBean {
     }
 
     /**
-     * Get current second
+     * 得到当前毫秒
      */
     private long getCurrentSecond() {
         long currentSecond = TimeUnit.MILLISECONDS.toSeconds(System.currentTimeMillis());
+        // 当前时间减去时间基点大于最大支持时间也就是
         if (currentSecond - epochSeconds > bitsAllocator.getMaxDeltaSeconds()) {
             throw new UidGenerateException("Timestamp bits is exhausted. Refusing UID generate. Now: " + currentSecond);
         }
@@ -145,7 +152,7 @@ public class DefaultUidGenerator implements UidGenerator, InitializingBean {
     }
 
     /**
-     * Setters for spring property
+     * workId分配
      */
     public void setWorkerIdAssigner(WorkerIdAssigner workerIdAssigner) {
         this.workerIdAssigner = workerIdAssigner;

@@ -37,7 +37,7 @@ public class ApplicationController {
     }
 
     /**
-     * 查询应用
+     * 查询应用（分页）
      */
     @GetMapping(value = {"/{appId}", ""})
     public Page<Application> listApplication(@PathVariable(required = false) Long appId, Pageable page){

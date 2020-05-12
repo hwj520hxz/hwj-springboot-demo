@@ -23,14 +23,15 @@ public class ServerRuntimeStart {
     @Bean
     public CachedUidGenerator uidGenerator(@Autowired DisposableWorkerIdAssigner disposableWorkerIdAssigner) {
         CachedUidGenerator cachedUidGenerator = new CachedUidGenerator();
-//        2^28 /(365*24*60*60) = 8年多
+        // 2^28 /(365*24*60*60) = 8年多
         cachedUidGenerator.setTimeBits(28);
-//        最多支持2^22 4194304 次机器启动
+        // 最多支持2^22 4194304 次机器启动
         cachedUidGenerator.setWorkerBits(22);
-//        每秒支持2^13 8192个并发
+        // 每秒支持2^13 8192个并发
         cachedUidGenerator.setSeqBits(13);
-//        系统初始日期
+        // 系统初始日期
         cachedUidGenerator.setEpochStr("2020-03-01");
+        // 工作ID分配器
         cachedUidGenerator.setWorkerIdAssigner(disposableWorkerIdAssigner);
         return cachedUidGenerator;
     }

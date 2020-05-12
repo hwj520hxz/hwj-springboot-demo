@@ -1,18 +1,4 @@
-/*
- * Copyright (c) 2017 Baidu, Inc. All Rights Reserve.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.hwj.demo.component.id.generator.worker;
 
 
@@ -28,46 +14,43 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 
 /**
- * Represents an implementation of {@link WorkerIdAssigner},
- * the worker id will be discarded after assigned to the UidGenerator
- *
- * @author yutianbao
+ * workId 分配（CachedUidGenerator的一个属性，在启动类的bean中设置）
+ * 在分配给UidGenerator之后，workId将被丢弃
  */
 public class DisposableWorkerIdAssigner implements WorkerIdAssigner {
     private static final Logger LOGGER = LoggerFactory.getLogger(DisposableWorkerIdAssigner.class);
 
+    // @Resource的作用相当于@Autowired，只不过@Autowired按byType自动注入，而@Resource默认按 byName自动注入
     @Resource
     private WorkerNodeDAO workerNodeDAO;
 
     /**
-     * Assign worker id base on database.<p>
-     * If there is host name & port in the environment, we considered that the node runs in Docker container<br>
-     * Otherwise, the node runs on an actual machine.
-     *
+     * 根据数据库分配workId，如果环境中有主机名和端口我们则认为是在Docker容器中运行，否则该节点是在实际机器中运行
      * @return assigned worker id
      */
     @Transactional
     public long assignWorkerId() {
-        // build worker node entity
+        // 构建工作节点实体
         WorkerNodeEntity workerNodeEntity = buildWorkerNode();
 
-        // add worker node for new (ignore the same IP + PORT)
+        // 将工作节点保存到数据库
         workerNodeDAO.addWorkerNode(workerNodeEntity);
         LOGGER.info("Add worker node:" + workerNodeEntity);
-
+        //返回工作节点ID
         return workerNodeEntity.getId();
     }
 
     /**
-     * Build worker node entity by IP and PORT
+     * 根据IP和端口保存构建工作节点
      */
     private WorkerNodeEntity buildWorkerNode() {
         WorkerNodeEntity workerNodeEntity = new WorkerNodeEntity();
+        // 如果是docker容器
         if (DockerUtils.isDocker()) {
             workerNodeEntity.setType(WorkerNodeType.CONTAINER.value());
             workerNodeEntity.setHostName(DockerUtils.getDockerHost());
             workerNodeEntity.setPort(DockerUtils.getDockerPort());
-
+        //实际机器
         } else {
             workerNodeEntity.setType(WorkerNodeType.ACTUAL.value());
             workerNodeEntity.setHostName(NetUtils.getLocalAddress());

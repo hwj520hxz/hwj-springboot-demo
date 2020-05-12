@@ -3,7 +3,7 @@ package com.hwj.demo.component.id.generator.exception;
 /**
  * @author ：hwj
  * @version 版本号：V1.0
- * @Description ：
+ * @Description ：UID异常处理
  */
 public class UidGenerateException extends RuntimeException {
 

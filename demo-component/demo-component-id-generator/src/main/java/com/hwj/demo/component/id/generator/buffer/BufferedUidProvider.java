@@ -18,9 +18,7 @@ package com.hwj.demo.component.id.generator.buffer;
 import java.util.List;
 
 /**
- * Buffered UID provider(Lambda supported), which provides UID in the same one second
- *
- * @author yutianbao
+ * 在相同的毫秒内提供UID
  */
 @FunctionalInterface
 public interface BufferedUidProvider {

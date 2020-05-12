@@ -16,10 +16,8 @@
 package com.hwj.demo.component.id.generator.buffer;
 
 /**
- * If tail catches the cursor it means that the ring buffer is full, any more buffer put request will be rejected.
- * Specify the policy to handle the reject. This is a Lambda supported interface
- *
- * @author yutianbao
+ * 如果tail捕捉到游标，则意味着环形缓冲区已满，任何更多的缓冲区put请求都将被拒绝
+ * 处理拒绝的策略
  */
 @FunctionalInterface
 public interface RejectedPutBufferHandler {

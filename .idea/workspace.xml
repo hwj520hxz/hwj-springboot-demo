@@ -1,43 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54fa168e-5b5e-4a03-ba5e-187ce49caf60" name="Default Changelist" comment="测试git上传">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="54fa168e-5b5e-4a03-ba5e-187ce49caf60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-audit-support/target/demo-component-audit-support-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-audit-support/target/demo-component-audit-support-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-audit-support/target/demo-component-audit-support-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-audit-support/target/demo-component-audit-support-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-exception/target/demo-component-exception-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-exception/target/demo-component-exception-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-exception/target/demo-component-exception-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-exception/target/demo-component-exception-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-exception/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-exception/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/target/demo-component-mybatis-generator-plugin-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/target/demo-component-mybatis-generator-plugin-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/target/demo-component-mybatis-generator-plugin-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/target/demo-component-mybatis-generator-plugin-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/target/demo-component-mybatis-generator-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/target/demo-component-mybatis-generator-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/target/demo-component-mybatis-generator-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/target/demo-component-mybatis-generator-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-pageHelper/target/demo-component-pageHelper-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-pageHelper/target/demo-component-pageHelper-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-pageHelper/target/demo-component-pageHelper-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-pageHelper/target/demo-component-pageHelper-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-server-runtime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-server-runtime/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-server-runtime/target/demo-component-server-runtime-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-server-runtime/target/demo-component-server-runtime-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-component/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dependencies/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-frontend/src/views/demo/demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo-frontend/src/views/demo/demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-base-dao/target/demo-user-base-dao-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-base-dao/target/demo-user-base-dao-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-base-dao/target/demo-user-base-dao-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-base-dao/target/demo-user-base-dao-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/UserServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/UserServerStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/impl/ApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/impl/ApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/BitsAllocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/BitsAllocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/UidGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/UidGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferPaddingExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferPaddingExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferedUidProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferedUidProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedPutBufferHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedPutBufferHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedTakeBufferHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedTakeBufferHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RingBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/exception/UidGenerateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/exception/UidGenerateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/CachedUidGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/CachedUidGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/DefaultUidGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/DefaultUidGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DockerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DockerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/DisposableWorkerIdAssigner.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/DisposableWorkerIdAssigner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerIdAssigner.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerIdAssigner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerNodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerNodeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/dao/WorkerNodeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/dao/WorkerNodeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/entity/WorkerNodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/entity/WorkerNodeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/com/hwj/demo/user/server/UserServerStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/com/hwj/demo/user/server/UserServerStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/com/hwj/demo/user/server/service/impl/ApplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/com/hwj/demo/user/server/service/impl/ApplicationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/com/hwj/demo/user/server/web/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/com/hwj/demo/user/server/web/ApplicationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/demo-user-server-1.0.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/demo-user-server-1.0.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/demo-user-server-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/demo-user-server-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/demo-user-server-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/demo-user-server-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-user/demo-user-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo-user/demo-user-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,10 +62,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/impl/ApplicationService.java">
+        <entry file="file://$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="409">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,6 +93,14 @@
       <find>RingBuffer</find>
       <find>boostPower</find>
       <find>scheduleInterval</find>
+      <find>nextId</find>
+      <find>signBits</find>
+      <find>maxSequence</find>
+      <find>bufferPaddingExecutor</find>
+      <find>xecutor</find>
+      <find>BufferedUidProvider</find>
+      <find>addWorkerNode</find>
+      <find>WorkerIdAssigner</find>
     </findStrings>
     <dirStrings>
       <dir>G:\hwj-springboot-demo\hwj-springboot-demo\demo-frontend</dir>
@@ -121,11 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo-component/demo-component-audit-support/src/main/java/demo/component/audit/support/AuditFactory.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/src/main/java/demo/component/mybatis/generator/plugin/IgnoreAuditFiledInEntityPlugin.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/src/main/java/demo/component/mybatis/generator/plugin/JSR303Plugin.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/src/main/java/demo/component/mybatis/generator/plugin/LessCommentGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/pom.xml" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-base-dao/pom.xml" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-mybatis-generator-plugin/src/main/java/demo/component/mybatis/generator/plugin/AuditEntityPlugin.java" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-base-dao/src/main/java/com/hwj/demo/user/base/dao/UserBaseMapper.java" />
@@ -144,34 +130,39 @@
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/dao/ApplicationMapper.java" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/IApplicationService.java" />
         <option value="$PROJECT_DIR$/demo-frontend/src/views/demo/demo.vue" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/exception/UidGenerateException.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/BitsAllocator.java" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/NamingThreadFactory.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerNodeType.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferPaddingExecutor.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RingBuffer.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerIdAssigner.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/entity/WorkerNodeEntity.java" />
         <option value="$PROJECT_DIR$/demo-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/dto/ApplicationDTO.java" />
-        <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/ApplicationController.java" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/dto/DTO2Entity.groovy" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/resources/gmp/DTO2Entity.groovy" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/pom.xml" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-exception/src/main/java/com/hwj/demo/component/exception/enums/UserCenterEnums.java" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/impl/ApplicationService.java" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-server-runtime/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/dao/WorkerNodeDAO.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/DisposableWorkerIdAssigner.java" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/resources/mapper/WORKER_NODE.xml" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/resources/mapper/WORKER_NODE.xml" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/UidGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/DefaultUidGenerator.java" />
-        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/CachedUidGenerator.java" />
         <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/tqw.java" />
         <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/UserServerStart.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/BitsAllocator.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/UidGenerator.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/CachedUidGenerator.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferPaddingExecutor.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedPutBufferHandler.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferedUidProvider.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedTakeBufferHandler.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RingBuffer.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/exception/UidGenerateException.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/DefaultUidGenerator.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/entity/WorkerNodeEntity.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/dao/WorkerNodeDAO.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerIdAssigner.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DockerUtils.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/DisposableWorkerIdAssigner.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerNodeType.java" />
+        <option value="$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java" />
       </list>
     </option>
   </component>
@@ -262,39 +253,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hwj-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-component" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-component-id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="buffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hwj-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-component" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-component-id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hwj-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-component" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-component-id-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-              <item name="worker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -414,39 +372,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hwj-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-user" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-user-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hwj-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-user" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-user-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hwjdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hwj-springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-user" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-user-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -462,7 +388,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589180422897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589267674016" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -539,7 +465,7 @@
       <workItem from="1589008676804" duration="137000" />
       <workItem from="1589010925053" duration="5384000" />
       <workItem from="1589016455676" duration="1471000" />
-      <workItem from="1589017941602" duration="15015000" />
+      <workItem from="1589017941602" duration="38219000" />
     </task>
     <task id="LOCAL-00001" summary="集成分页">
       <created>1588930878205</created>
@@ -555,16 +481,31 @@
       <option name="project" value="LOCAL" />
       <updated>1589011158920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="主键生成采用雪花算法生成策略">
+      <created>1589180423578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589180423578</updated>
+    </task>
+    <task id="LOCAL-00004" summary="主键生成采用雪花算法生成策略">
+      <created>1589180446610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589180446610</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52958000" />
+    <option name="totallyTimeSpent" value="76162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,8 +515,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.21603563" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3051225" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.21603563" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3051225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -587,7 +528,7 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32962137" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.19599108" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -612,10 +553,16 @@
     </ignored-roots>
     <MESSAGE value="集成分页" />
     <MESSAGE value="测试git上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试git上传" />
+    <MESSAGE value="主键生成采用雪花算法生成策略" />
+    <option name="LAST_COMMIT_MESSAGE" value="主键生成采用雪花算法生成策略" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>System.currentTimeMillis() + &quot;-&quot; + RandomUtils.nextInt(1,100000)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>workerIdAssigner.assignWorkerId()</expression-string>
         <language-id>JAVA</language-id>
@@ -624,45 +571,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/resources/application-dev.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="21" column="187" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-mybatis-generator/src/main/java/com/hwj/demo/mybatis/generator/dao/ApplicationBaseMapper.java" />
-    <entry file="file://$PROJECT_DIR$/demo-user/demo-user-base-dao/src/main/java/com/hwj/demo/user/base/dao/ApplicationBaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/dao/ApplicationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user/demo-user-base-dao/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="95" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/IApplicationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -677,20 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DockerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -729,26 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferedUidProvider.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferPaddingExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedTakeBufferHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/dto/ApplicationDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -780,23 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/ApplicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/exception/UidGenerateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -852,132 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerNodeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/dao/WorkerNodeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/BitsAllocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1732">
-          <caret line="103" column="30" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/entity/WorkerNodeEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="1240" selection-start-line="1240" selection-end-line="1240" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerIdAssigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/resources/mapper/WORKER_NODE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/DisposableWorkerIdAssigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RingBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedPutBufferHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/UidGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/CachedUidGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/DefaultUidGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,10 +733,250 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/BitsAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#3063#3064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/service/impl/ApplicationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="-19">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+          <folding>
+            <element signature="e#5288#5289#0" expanded="true" />
+            <element signature="e#5359#5360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferedUidProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedTakeBufferHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RejectedPutBufferHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/BufferPaddingExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428">
+          <caret line="80" column="87" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/exception/UidGenerateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/buffer/RingBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="87" column="7" lean-forward="true" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/time/DateUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/DefaultUidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="154" column="15" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5597#5598#0" expanded="true" />
+            <element signature="e#5653#5654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/org/springframework/beans/factory/DisposableBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/impl/CachedUidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="36" column="78" lean-forward="true" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/dao/WorkerNodeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/resources/mapper/WORKER_NODE.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="890" column="25" selection-start-line="890" selection-start-column="25" selection-end-line="890" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/utils/DockerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/entity/WorkerNodeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-user/demo-user-server/src/main/java/com/hwj/demo/user/server/web/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerNodeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/DisposableWorkerIdAssigner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/worker/WorkerIdAssigner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-id-generator/src/main/java/com/hwj/demo/component/id/generator/UidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-component/demo-component-server-runtime/src/main/java/com/hwj/demo/component/server/runtime/ServerRuntimeStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
