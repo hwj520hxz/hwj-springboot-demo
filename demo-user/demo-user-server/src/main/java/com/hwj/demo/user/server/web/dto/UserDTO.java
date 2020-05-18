@@ -3,9 +3,7 @@ package com.hwj.demo.user.server.web.dto;
 import java.time.LocalDateTime;
 
 /**
- * @Author: pjk
- * @Description 功能说明：用户信息DTO
- * @Date: 2020/3/20 16:37
+ * 功能说明：用户信息DTO
  */
 public class UserDTO {
 

@@ -19,6 +19,7 @@
         <module>demo-component-pageHelper</module>
         <module>demo-component-exception</module>
         <module>demo-component-id-generator</module>
+        <module>demo-component-encryption</module>
     </modules>
 
 

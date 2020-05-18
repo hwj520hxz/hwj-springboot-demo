@@ -14,6 +14,8 @@
     <modules>
         <module>demo-user-server</module>
         <module>demo-user-base-dao</module>
+        <module>demo-user-authorize-integrated</module>
+        <module>demo-user-authority-api</module>
     </modules>
 
 

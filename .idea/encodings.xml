@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-component" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-component/demo-component-audit-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-component/demo-component-encryption" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-component/demo-component-exception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-component/demo-component-id-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-component/demo-component-mybatis-generator" charset="UTF-8" />
@@ -11,7 +12,15 @@
     <file url="file://$PROJECT_DIR$/demo-component/demo-component-pageHelper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-component/demo-component-server-runtime" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-identity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-identity-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-identity/demo-identity-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-identity/demo-identity-base-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-identity/demo-identity-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-identity/demo-identity-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-user/demo-user-authority-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-user/demo-user-authorize-integrated" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-user/demo-user-base-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-user/demo-user-server" charset="UTF-8" />
   </component>

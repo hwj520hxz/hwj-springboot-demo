@@ -84,6 +84,12 @@
             <artifactId>commons-groovy-mapper</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-user-authorize-integrated</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
 
 
     </dependencies>

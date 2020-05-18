@@ -7,20 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-component-audit-support" />
+        <module name="demo-component-encryption" />
         <module name="demo-component-exception" />
         <module name="demo-component-id-generator" />
         <module name="demo-component-mybatis-generator" />
         <module name="demo-component-mybatis-generator-plugin" />
         <module name="demo-component-pageHelper" />
         <module name="demo-component-server-runtime" />
+        <module name="demo-identity-api" />
+        <module name="demo-identity-base-dao" />
+        <module name="demo-identity-server" />
+        <module name="demo-user-authority-api" />
+        <module name="demo-user-authorize-integrated" />
         <module name="demo-user-base-dao" />
         <module name="demo-user-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-user-identity" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-component-audit-support" options="-parameters" />
+      <module name="demo-component-encryption" options="-parameters" />
       <module name="demo-component-exception" options="-parameters" />
       <module name="demo-component-id-generator" options="-parameters" />
       <module name="demo-component-mybatis-generator" options="-parameters" />
@@ -28,7 +38,14 @@
       <module name="demo-component-pageHelper" options="-parameters" />
       <module name="demo-component-server-runtime" options="-parameters" />
       <module name="demo-dependencies" options="-parameters" />
+      <module name="demo-identity" options="-parameters" />
+      <module name="demo-identity-api" options="-parameters" />
+      <module name="demo-identity-base-dao" options="-parameters" />
+      <module name="demo-identity-server" options="-parameters" />
+      <module name="demo-user-authority-api" options="-parameters" />
+      <module name="demo-user-authorize-integrated" options="-parameters" />
       <module name="demo-user-base-dao" options="-parameters" />
+      <module name="demo-user-identity" options="-parameters" />
       <module name="demo-user-server" options="-parameters" />
     </option>
   </component>

@@ -5,6 +5,7 @@ import com.hwj.demo.component.id.generator.impl.CachedUidGenerator;
 import com.hwj.demo.component.id.generator.worker.DisposableWorkerIdAssigner;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.io.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -17,7 +18,7 @@ import org.springframework.context.annotation.Bean;
  */
 
 @MapperScan("com.hwj.demo.**.dao")
-
+@ComponentScan(value = {"com.hwj.demo.identity","com.hwj.demo.user"})
 public class ServerRuntimeStart {
 
     @Bean

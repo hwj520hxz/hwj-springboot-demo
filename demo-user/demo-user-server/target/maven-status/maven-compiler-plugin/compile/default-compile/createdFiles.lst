@@ -1,6 +1,12 @@
+com\hwj\demo\user\server\web\dto\UserDTO.class
 com\hwj\demo\user\server\UserServerStart.class
+com\hwj\demo\user\server\service\IUserService.class
 com\hwj\demo\user\server\dao\ApplicationMapper.class
 com\hwj\demo\user\server\web\ApplicationController.class
 com\hwj\demo\user\server\service\IApplicationService.class
+com\hwj\demo\user\server\api\impl\UserAuthorizeApi.class
 com\hwj\demo\user\server\service\impl\ApplicationService.class
+com\hwj\demo\user\server\web\UserController.class
+com\hwj\demo\user\server\service\impl\UserService.class
 com\hwj\demo\user\server\web\dto\ApplicationDTO.class
+com\hwj\demo\user\server\dao\UserMapper.class

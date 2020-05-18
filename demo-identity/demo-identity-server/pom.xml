@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>demo-identity</artifactId>
+        <groupId>com.hwj.springboot.demo</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>demo-identity-server</artifactId>
+    <dependencies>
+
+        <!--支持服务的启动-->
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-component-server-runtime</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-identity-base-dao</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-identity-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--暂时不明白为何要加这个依赖，或许是因为启动identity服务会编译整个工程，然后找不到API的实现类。但是在启动类哪里已经加上了扫描，为何还会找不到呢？-->
+        <dependency>
+            <groupId>com.hwj.springboot.demo</groupId>
+            <artifactId>demo-user-server</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

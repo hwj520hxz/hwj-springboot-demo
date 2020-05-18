@@ -6,6 +6,13 @@ public enum UserCenterEnums implements EnumsInterface {
     APPLICATION_IS_NOT_EXISTS(CommonEnums.BUSINESS_ERROR.getCode(),"未找到对应的应用!请刷新页面重试!"),
     APPLICATION_FIELD_IS_MUST(CommonEnums.BUSINESS_ERROR.getCode(),"${content}不能为空!请重新输入!"),
     APPLICATION_OPERATION_ERROR(CommonEnums.BUSINESS_ERROR.getCode(),"${content}失败!请重试!"),
+    /* 用户模块 */
+    USER_IS_NOT_EXISTS(CommonEnums.BUSINESS_ERROR.getCode(),"未找到对应的用户!请刷新页面重试!"),
+    USER_FIELD_NO_UPDATE(CommonEnums.BUSINESS_ERROR.getCode(),"${content}不能修改"),
+    USER_FIELD_IS_MUST(CommonEnums.BUSINESS_ERROR.getCode(),"${content}不能为空!请重新输入!"),
+    USER_OLD_PASSWORD_ERROR(CommonEnums.BUSINESS_ERROR.getCode(),"原密码不正确，请重新输入"),
+    USER_INTERNAL_NO_EDIT(CommonEnums.BUSINESS_ERROR.getCode(),"内置用户${content}，请重新选择"),
+
 
     ;
 
