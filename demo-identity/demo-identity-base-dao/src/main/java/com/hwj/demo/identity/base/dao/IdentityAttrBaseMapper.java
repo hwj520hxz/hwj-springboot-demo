@@ -3,7 +3,6 @@ package com.hwj.demo.identity.base.dao;
 import static com.hwj.demo.identity.base.dao.IdentityAttrDynamicSqlSupport.*;
 import static org.mybatis.dynamic.sql.SqlBuilder.*;
 
-
 import com.hwj.demo.component.audit.support.AuditFactory;
 import com.hwj.demo.identity.base.entity.IdentityAttr;
 import java.util.Collection;

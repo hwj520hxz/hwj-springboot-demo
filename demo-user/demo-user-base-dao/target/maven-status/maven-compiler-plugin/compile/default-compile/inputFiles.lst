@@ -1,6 +1,9 @@
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\dao\OrgUserDynamicSqlSupport.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\dao\UserBaseMapper.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\entity\OrgUser.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\entity\Application.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\dao\UserDynamicSqlSupport.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\dao\ApplicationBaseMapper.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\dao\OrgUserBaseMapper.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\entity\User.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-base-dao\src\main\java\com\hwj\demo\user\base\dao\ApplicationDynamicSqlSupport.java

@@ -27,6 +27,7 @@ public class UserService implements IUserService {
     @Autowired
     private UidGenerator uidGenerator;
 
+
     /**
      * 新增用户
      **/

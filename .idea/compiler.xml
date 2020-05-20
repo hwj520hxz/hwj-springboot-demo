@@ -17,6 +17,9 @@
         <module name="demo-identity-api" />
         <module name="demo-identity-base-dao" />
         <module name="demo-identity-server" />
+        <module name="demo-operation-api" />
+        <module name="demo-operation-base-dao" />
+        <module name="demo-operation-server" />
         <module name="demo-user-authority-api" />
         <module name="demo-user-authorize-integrated" />
         <module name="demo-user-base-dao" />
@@ -42,6 +45,10 @@
       <module name="demo-identity-api" options="-parameters" />
       <module name="demo-identity-base-dao" options="-parameters" />
       <module name="demo-identity-server" options="-parameters" />
+      <module name="demo-operation" options="-parameters" />
+      <module name="demo-operation-api" options="-parameters" />
+      <module name="demo-operation-base-dao" options="-parameters" />
+      <module name="demo-operation-server" options="-parameters" />
       <module name="demo-user-authority-api" options="-parameters" />
       <module name="demo-user-authorize-integrated" options="-parameters" />
       <module name="demo-user-base-dao" options="-parameters" />

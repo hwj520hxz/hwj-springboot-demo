@@ -1,8 +1,12 @@
-com\hwj\demo\user\base\dao\UserBaseMapper.class
-com\hwj\demo\user\base\dao\ApplicationBaseMapper.class
-com\hwj\demo\user\base\dao\UserDynamicSqlSupport$User.class
 com\hwj\demo\user\base\entity\Application.class
 com\hwj\demo\user\base\entity\User.class
 com\hwj\demo\user\base\dao\UserDynamicSqlSupport.class
 com\hwj\demo\user\base\dao\ApplicationDynamicSqlSupport$Application.class
+com\hwj\demo\user\base\dao\OrgUserBaseMapper.class
 com\hwj\demo\user\base\dao\ApplicationDynamicSqlSupport.class
+com\hwj\demo\user\base\dao\OrgUserDynamicSqlSupport.class
+com\hwj\demo\user\base\dao\UserBaseMapper.class
+com\hwj\demo\user\base\dao\ApplicationBaseMapper.class
+com\hwj\demo\user\base\dao\OrgUserDynamicSqlSupport$OrgUser.class
+com\hwj\demo\user\base\dao\UserDynamicSqlSupport$User.class
+com\hwj\demo\user\base\entity\OrgUser.class

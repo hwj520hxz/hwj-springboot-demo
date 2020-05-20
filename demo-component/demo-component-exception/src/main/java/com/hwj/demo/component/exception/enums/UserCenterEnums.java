@@ -13,7 +13,8 @@ public enum UserCenterEnums implements EnumsInterface {
     USER_OLD_PASSWORD_ERROR(CommonEnums.BUSINESS_ERROR.getCode(),"原密码不正确，请重新输入"),
     USER_INTERNAL_NO_EDIT(CommonEnums.BUSINESS_ERROR.getCode(),"内置用户${content}，请重新选择"),
 
-
+    /*机构用户模块*/
+    ORG_USER_NOT_EXISTS(CommonEnums.GONE.getCode(),"该组织下的用户信息不存在,请重试"),
     ;
 
 

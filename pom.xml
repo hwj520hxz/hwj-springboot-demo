@@ -33,6 +33,7 @@
         <module>demo-dependencies</module>
         <module>demo-component</module>
         <module>demo-identity</module>
+        <module>demo-operation</module>
     </modules>
 
     <!--依赖模块-->

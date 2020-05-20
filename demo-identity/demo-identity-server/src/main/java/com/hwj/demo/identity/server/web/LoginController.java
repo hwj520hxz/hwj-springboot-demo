@@ -33,7 +33,6 @@ public class LoginController {
      * @return
      */
     @PostMapping("login")
-
     public LoginResultDTO login(@Valid @RequestBody UserLoginDTO user) {
         IdentityAccount identityAccount = identityAccountService.checkUser(user.getCode(), user.getPassword(), IIdentityAccountService.USER_TYPE1);
         LoginResultDTO result = new LoginResultDTO();

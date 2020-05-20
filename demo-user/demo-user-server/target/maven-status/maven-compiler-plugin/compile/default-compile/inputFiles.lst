@@ -1,12 +1,13 @@
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\impl\UserService.java
-G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\IUserService.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\web\ApplicationController.java
-G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\dao\ApplicationMapper.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\api\impl\UserAuthorizeApi.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\web\UserController.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\dao\OrgUserMapper.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\UserServerStart.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\IUserService.java
+G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\dao\ApplicationMapper.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\dao\UserMapper.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\web\dto\UserDTO.java
-G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\web\UserController.java
-G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\UserServerStart.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\IApplicationService.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\service\impl\ApplicationService.java
 G:\hwj-springboot-demo\hwj-springboot-demo\demo-user\demo-user-server\src\main\java\com\hwj\demo\user\server\web\dto\ApplicationDTO.java

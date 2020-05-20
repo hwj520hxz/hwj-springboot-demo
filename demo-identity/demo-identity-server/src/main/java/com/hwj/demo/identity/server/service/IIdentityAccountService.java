@@ -1,6 +1,9 @@
 package com.hwj.demo.identity.server.service;
 
 import com.hwj.demo.identity.base.entity.IdentityAccount;
+import com.hwj.demo.identity.base.entity.IdentityAttr;
+
+import java.util.List;
 
 /**
  * @author ：hwj
@@ -21,4 +24,23 @@ public interface IIdentityAccountService {
      * @return
      */
     IdentityAccount checkUser(String code, String password, String userType);
+
+    void updateLoginTime(Long recId);
+
+    IdentityAccount save(IdentityAccount identityAccount, List<IdentityAttr> attrList, String type);
+
+    /**
+     * 保存身份信息
+     * @param identityAccount
+     * @param attrList
+     * @return
+     */
+    Long saveIdentityAccount(IdentityAccount identityAccount, List<IdentityAttr> attrList, String type);
+
+
+    /**
+     * 删除用户
+     * @param accountOpenId
+     */
+    void deleteUser(Long accountOpenId);
 }

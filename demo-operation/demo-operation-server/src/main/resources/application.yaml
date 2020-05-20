@@ -1,0 +1,22 @@
+server:
+  port: 10022
+
+mybatis:
+  configuration:
+    call-setters-on-nulls: true
+  mapperLocations: classpath*:mapper/**/*.xml
+  typeAliasesPackage: com.hwj.demo.entity
+
+spring:
+  datasource:
+    username: root
+#    password: admin
+    password: 123456
+    url: jdbc:mysql://172.18.150.234:3306/demo?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    url: jdbc:mysql://172.18.169.55:3306/saas?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+pagehelper:
+  reasonable: false
+  helper-dialect: mysql
+  params: count=countSql
+  support-methods-arguments: true
