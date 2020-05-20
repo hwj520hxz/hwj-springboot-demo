@@ -1,6 +1,6 @@
-package com.hwj.demo.identity.api;
+package com.hwj.demo.identity.server.service;
 
-import com.hwj.demo.identity.dto.IdentityDTO;
+import com.hwj.demo.identity.server.web.dto.IdentityDTO;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @version 版本号：V1.0
  * @Description ：
  */
-public interface IIdentityProviderApi {
+public interface IIdentityProviderService {
+
     /**
      * 新增身份信息
      *

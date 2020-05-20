@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Bean;
  */
 
 @MapperScan("com.hwj.demo.**.dao")
-@ComponentScan(value = {"com.hwj.demo.identity","com.hwj.demo.user"})
+@ComponentScan("com.hwj.demo")
 public class ServerRuntimeStart {
 
     @Bean

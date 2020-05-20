@@ -1,4 +1,4 @@
-package com.hwj.demo.identity.dto;
+package com.hwj.demo.identity.server.web.dto;
 
 import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;

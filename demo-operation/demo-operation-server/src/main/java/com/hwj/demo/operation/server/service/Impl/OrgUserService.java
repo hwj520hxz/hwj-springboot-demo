@@ -6,9 +6,9 @@ import com.hwj.demo.component.exception.enums.UserCenterEnums;
 import com.hwj.demo.component.exception.exception.BusinessException;
 import com.hwj.demo.component.id.generator.UidGenerator;
 
-import com.hwj.demo.identity.api.IIdentityProviderApi;
-import com.hwj.demo.identity.dto.IdentityDTO;
-import com.hwj.demo.identity.server.service.api.impl.IdentityProviderApi;
+import com.hwj.demo.identity.server.web.dto.IdentityDTO;
+
+import com.hwj.demo.identity.server.service.IIdentityProviderService;
 import com.hwj.demo.operation.server.api.impl.UserManageApi;
 import com.hwj.demo.operation.server.entity.OrgUserEntity;
 import com.hwj.demo.operation.server.service.IOrgUserService;
@@ -35,7 +35,7 @@ public class OrgUserService implements IOrgUserService {
     @Autowired
     private OrgUserMapper orgUserMapper;
     @Autowired
-    private IdentityProviderApi identityProviderApi;
+    private IIdentityProviderService iIdentityProviderService;
     @Autowired
     private Mapper mapper;
 
@@ -49,7 +49,7 @@ public class OrgUserService implements IOrgUserService {
         //调用认证中心保存用户数据
         IdentityDTO dto = mapper.map(userApiDTO, IdentityDTO.class);
         dto.setUserId(null);
-        Long userId = identityProviderApi.save(dto);
+        Long userId = iIdentityProviderService.save(dto);
 
         //调用用户权限中心保存用户数据
         userApiDTO.setRecId(userId);

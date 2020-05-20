@@ -12,6 +12,10 @@
     <artifactId>demo-identity-api</artifactId>
     <dependencies>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.hwj.springboot.demo</groupId>
             <artifactId>demo-component-exception</artifactId>
             <version>1.0.0-SNAPSHOT</version>
